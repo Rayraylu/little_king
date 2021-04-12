@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		background: #3cb373;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -750,6 +750,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			text-align:center;
 		}
 
 		.row > .off-4 {
