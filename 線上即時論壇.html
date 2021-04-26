@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="assets/css/dropdown.css">
 </head>
 
 <body class="is-preload">
@@ -50,7 +51,16 @@
                     <li><a href="webinar.html">Webinar</a></li>
                     <li><a href="textile_pitch.html">Textile Pitch</a></li>
                     <li><a href="線上即時論壇.html">線上即時論壇</a></li>
-                    <li><a href="#" class="button primary">Sign Up</a></li>
+                    <button onclick="myFunction()" class="dropdownbtn" aria-label="點選個人資料相片，即可顯示您其他的帳戶">
+						<img id="img" class="memberimg" alt="顯示圖片" height="32" width="32" src="images/member.jpg">
+					</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a><img height="80" width="80" src="images/member.jpg">Member Name</a>
+                        <a href="#">Schedule 排程</a>
+                        <a href="#">MyChat 聊天室</a>
+                        <a href="#">MyOrder/Collection</a>
+                        <a href="#">MyProfile</a>
+                    </div>
                 </ul>
             </nav>
         </header>
@@ -146,6 +156,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/dropdownclick.js"></script>
 
 </body>
 
