@@ -1,0 +1,46 @@
+.pixnet-happix-pilot__launcher-bar-desktop__wrapper.action .pixnet-happix-pilot__launcher-bar-desktop__collapse {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transform: rotate(0);
+}
+
+.pixnet-happix-pilot__launcher-bar-desktop__collapse {
+    border: 0;
+    width: 20px;
+    height: 30px;
+    background-color: #6eacf5;
+    background-image: url(https://s.pixfs.net/common/icons/ic_left_white_arrow.svg);
+    background-size: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 0 4px 0 rgb(0 0 0 / 30%);
+}
+
+.pixnet-happix-pilot__launcher-bar-desktop * {
+    box-sizing: border-box;
+}
+
+pixnet-happix-pilot__launcher-bar-desktop__wrapper.action button {
+    appearance: auto;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+}
+
+.pixnet-happix-pilot__launcher-bar-desktop>* {
+    -webkit-font-smoothing: antialiased;
+}
