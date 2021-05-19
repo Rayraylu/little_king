@@ -15,6 +15,14 @@
     <link rel="stylesheet" href="assets/css/dropdown.css">
     <link rel="stylesheet" href="assets/css/schedule.css">
     <link rel="stylesheet" href="assets/css/dashboard.css">
+    <style>
+        .search-wrapper.searching input {
+            height: 100%;
+            padding: 0.5em;
+            border: none;
+            outline: none;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -71,6 +79,10 @@
         <div id="main" class="wrapper style1">
             <div class="container">
                 <header class="major">
+                    <div id="search-wrapper">
+                        <input type="search" id="searching" placeholder="Search Here" />
+                        <button id="search-button">Search</button>
+                    </div>
                     <h2>線上策展 1</h2>
                     <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
                 </header>
@@ -132,11 +144,17 @@
             </div>
         </div>
 
-        <div class="pixnet-happix-pilot__launcher-bar-desktop">
-            <div class="pixnet-happix-pilot__launcher-bar-desktop__wrapper action">
-                <ul class="pixnet-happix-pilot__launcher-bar-desktop__function">
+        <div class="launcher-bar-desktop">
+            <div class="launcher-bar-desktop__wrapper action">
+                <ul class="launcher-bar-desktop__function">
+                    <h6 style="border:2px dotted khaki;">
+                        <a id="b1" href="#home" class="w3-bar-item w3-button">績效表現</a>
+                        <a id="b2" href="#menu1" class="w3-bar-item w3-button">交易時點</a>
+                        <a id="b3" href="#menu2" class="w3-bar-item w3-button">交易總表</a>
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </h6>
                 </ul>
-                <button class="pixnet-happix-pilot__launcher-bar-desktop__collapse"></button>
+                <button class="launcher-bar-desktop__collapse"></button>
             </div>
         </div>
         <!-- Footer -->
