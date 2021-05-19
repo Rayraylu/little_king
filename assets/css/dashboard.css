@@ -1,18 +1,18 @@
-.pixnet-happix-pilot__launcher-bar-desktop__wrapper.action .pixnet-happix-pilot__launcher-bar-desktop__collapse {
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+.launcher-bar-desktop__wrapper.action .launcher-bar-desktop__collapse {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
     transform: rotate(0);
 }
 
-.pixnet-happix-pilot__launcher-bar-desktop__collapse {
+.launcher-bar-desktop__collapse {
     border: 0;
     width: 20px;
-    height: 30px;
+    height: 80px;
     background-color: #6eacf5;
     background-image: url(https://s.pixfs.net/common/icons/ic_left_white_arrow.svg);
-    background-size: 30px;
+    background-size: 80px;
     background-position: 50%;
     background-repeat: no-repeat;
     outline: 0;
@@ -20,11 +20,11 @@
     box-shadow: 0 0 4px 0 rgb(0 0 0 / 30%);
 }
 
-.pixnet-happix-pilot__launcher-bar-desktop * {
+.launcher-bar-desktop * {
     box-sizing: border-box;
 }
 
-pixnet-happix-pilot__launcher-bar-desktop__wrapper.action button {
+.launcher-bar-desktop__wrapper.action button {
     appearance: auto;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
@@ -33,14 +33,30 @@ pixnet-happix-pilot__launcher-bar-desktop__wrapper.action button {
     text-transform: none;
     text-indent: 0px;
     text-shadow: none;
-    display: inline-block;
-    text-align: center;
+    /*display: inline-block;
+    text-align: center;*/
     align-items: flex-start;
     margin: 0em;
     font: 400 13.3333px Arial;
     padding: 1px 6px;
+    float: right;
 }
 
-.pixnet-happix-pilot__launcher-bar-desktop>* {
+
+/*
+.launcher-bar-desktop>* {
     -webkit-font-smoothing: antialiased;
+}
+*/
+
+.launcher-bar-desktop {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 380px;
+    width: 83px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
