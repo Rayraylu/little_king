@@ -53,10 +53,51 @@
     position: fixed;
     z-index: 1;
     right: 0;
-    bottom: 380px;
+    bottom: 270px;
     width: 83px;
+}
+
+.launcher-bar-desktop_function {
+    width: 800px;
+    height: 300px;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
+
+.tabs div {
+    display: none;
+}
+
+.tabs div.current {
+    display: block;
+}
+
+.tabs div {
+    height: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 1s linear;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tabs div.current {
+    height: auto;
+    max-height: 200px;
+    transition: all 1s linear;
+    pointer-events: all;
+    opacity: 1;
+}
+
+
+/* highlighting selected tab menu */
+
+
+/*
+.tabs-menu div.active {
+    background: #000000;
+    color: #ffffff;
+}
+*/
