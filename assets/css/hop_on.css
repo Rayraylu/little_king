@@ -1,0 +1,35 @@
+.hop_button {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hopbut {
+    background-color: rgb(136, 80, 7);
+    color: rgb(136, 80, 7);
+    border-color: rgb(0, 0, 0);
+}
+
+.hop_set1 {
+    width: 50%;
+    float: left;
+}
+
+.hop_set2 {
+    width: 50%;
+    float: right;
+}
+
+.hop_set3 {
+    width: 50%;
+    float: left;
+}
+
+.hop_set4 {
+    width: 50%;
+    float: right;
+}
+
+.hop_on_section2 {
+    height: 40%;
+}
