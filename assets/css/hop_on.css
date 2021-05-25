@@ -1,5 +1,5 @@
 .hop_button {
-    width: 30%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
 }
@@ -30,6 +30,39 @@
     float: right;
 }
 
+.hop_on_section1 {
+    height: 40%;
+}
+
 .hop_on_section2 {
     height: 40%;
+}
+
+.hop_set1 img,
+.hop_set2 img,
+.hop_set3 img,
+.hop_set4 img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.hop_set1 img:hover,
+.hop_set2 img:hover,
+.hop_set3 img:hover,
+.hop_set4 img:hover {
+    box-shadow: 0 0 5px 5px #888;
+}
+
+.hop_pic1,
+.hop_pic2,
+.hop_pic3,
+.hop_pic4 {
+    margin-left: 30%;
+}
+
+.hop1,
+.hop2,
+.hop3,
+.hop4 {
+    text-align: center;
 }
