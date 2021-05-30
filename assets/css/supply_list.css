@@ -1,0 +1,23 @@
+.list_set {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.list_section1::after,
+.list_section2::after,
+.list_section3::after,
+.list_section4::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.list_pic {
+    margin-left: 25%;
+}
+
+.list_pic img {
+    width: 200px;
+    height: 200px;
+}
