@@ -2690,7 +2690,7 @@ input[type="button"].primary,
 .button.primary {
     background-color: #e44c65;
     box-shadow: none;
-    color: #e40f0f !important;
+    color: #ffffff !important;
 }
 
 input[type="submit"].primary:hover,
