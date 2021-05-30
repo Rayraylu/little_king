@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/dashboard.css">
     <link rel="stylesheet" href="assets/css/schedule.css">
     <link rel="stylesheet" href="assets/css/hop_on.css">
+    <link rel="stylesheet" href="assets/css/dashboard_test.css">
 </head>
 
 <body class="is-preload">
@@ -79,6 +80,12 @@
                     <h2>主題分類</h2>
                     <p style="color: black;">點擊您喜歡的主題</p>
                 </header>
+                <a onclick="dashboard()" class="dashboard"></a>
+                <div id="myDB">
+                    <a href="#">Direct Message</a>
+                    <a href="#">預約排程</a>
+                    <a href="#">我的收藏</a>
+                </div>
                 <div class="hop_on_section1">
                     <div class="hop_set1">
                         <a href="#" class="hop_pic1">
@@ -121,24 +128,6 @@
                 </div>
             </div>
         </div>
-        <div class="launcher-bar-desktop">
-            <div class="launcher-bar-desktop__wrapper action" onclick="dbFunction()">
-                <button class="launcher-bar-desktop__collapse" onclick="dbFunction()"></button>
-                <ul class="launcher-bar-desktop__function">
-                    <div class="tabs-menu">
-                        <div id="tab-1" class="tabs-menu-item active">Direct Message</div>
-                        <div id="tab-2" class="tabs-menu-item">預約排程</div>
-                        <div id="tab-3" class="tabs-menu-item">我的收藏</div>
-                    </div>
-                    <div class="tabs">
-                        <div class="tab tab-1 current">Tab 1 Content</div>
-                        <div class="tab tab-2">Tab 2 Content</div>
-                        <div class="tab tab-3">Tab 3 Content</div>
-                    </div>
-                </ul>
-            </div>
-        </div>
-
     </div>
 
     <!-- Scripts -->
@@ -156,6 +145,7 @@
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <script src="assets/js/jquery-simple-tabs-v1.0-minified.js"></script>
     <script src="assets/js/jquery-simple-tabs-v1.0.js"></script>
+    <script src="assets/js/dashboard_test.js"></script>
 
 </body>
 
