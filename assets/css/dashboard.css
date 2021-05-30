@@ -60,6 +60,8 @@
 .launcher-bar-desktop_function {
     width: 800px;
     height: 300px;
+    display: none;
+    overflow: auto;
 }
 
 body::-webkit-scrollbar {
@@ -89,6 +91,10 @@ body::-webkit-scrollbar {
     transition: all 1s linear;
     pointer-events: all;
     opacity: 1;
+}
+
+.show {
+    display: block;
 }
 
 
