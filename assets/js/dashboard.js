@@ -4,7 +4,7 @@ function dbFunction() {
 }
 */
 function dbFunction() {
-    document.getElementById("launcher-bar-desktop").classList.toggle("show");
-    launcher - bar - desktop.classList.toggle("show"); //現在是增加
-    launcher - bar - desktop.classlist.toggle("show"); //現在是刪除
+    document.getElementById("launcher-bar-desktop__function").classList.toggle("show");
+    launcher - bar - desktop__function.classList.toggle("show"); //現在是增加
+    launcher - bar - desktop__function.classlist.toggle("show"); //現在是刪除
 }
