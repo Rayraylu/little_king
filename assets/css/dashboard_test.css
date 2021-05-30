@@ -1,0 +1,32 @@
+.dashboard {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    transform: rotate(0);
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    bottom: 270px;
+    width: 2%;
+    height: 10%;
+    background-color: #6eacf5;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 80%;
+    background-image: url(https://s.pixfs.net/common/icons/ic_left_white_arrow.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.dashboard:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#myDB {
+    width: 70%;
+    height: 50%;
+}
