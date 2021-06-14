@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/schedule.css">
     <link rel="stylesheet" href="assets/css/hop_on.css">
     <link rel="stylesheet" href="assets/css/dashboard_test.css">
+    <link rel="stylesheet" href="assets/css/tagpage.css">
 </head>
 
 <body class="is-preload">
@@ -81,10 +82,51 @@
                     <p style="color: black;">點擊您喜歡的主題</p>
                 </header>
                 <a onclick="dashboard()" class="dashboard"></a>
-                <div id="myDB" class="dbcontent">
-                    <a href="#">Direct Message</a>
-                    <a href="#">預約排程</a>
-                    <a href="#">我的收藏</a>
+                <div id="dbcontent" class="dbcontent">
+                    <div class="tabs-menu">
+                        <div id="tab-1" class="tabs-menu-item active">Direct Message</div>
+                        <div id="tab-2" class="tabs-menu-item">預約排程</div>
+                        <div id="tab-3" class="tabs-menu-item">我的收藏</div>
+                    </div>
+
+                    <div class="tabs">
+                        <div class="tab tab-1 current">
+                            訊息
+                        </div>
+                        <div class="tab tab-2" style="color: black">
+                            <div class="calendar">
+                                <div class="title">
+                                    <h1 class="green" id="calendar-title">Month</h1>
+                                    <h2 class="green small" id="calendar-year">Year</h2>
+                                    <a href="" id="prev">Prev Month</a>
+                                    <a href="" id="next">Next Month</a>
+                                </div>
+                                <div class="body">
+                                    <div class="lightgrey body-list">
+                                        <ul>
+                                            <li>MON</li>
+                                            <li>TUE</li>
+                                            <li>WED</li>
+                                            <li>THU</li>
+                                            <li>FRI</li>
+                                            <li>SAT</li>
+                                            <li>SUN</li>
+                                        </ul>
+                                    </div>
+                                    <div class="darkgrey body-list">
+                                        <ul id="days">
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab tab-3">
+                            <div class="collect" style="color: black">
+                                My Orders
+                            </div>
+                            My Collection
+                        </div>
+                    </div>
                 </div>
                 <div class="hop_on_section1">
                     <div class="hop_set1">
@@ -146,7 +188,16 @@
     <script src="assets/js/jquery-simple-tabs-v1.0-minified.js"></script>
     <script src="assets/js/jquery-simple-tabs-v1.0.js"></script>
     <script src="assets/js/dashboard_test.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
 
+            $('.animation').bind('click', function() {
+                $('.css-switcher div').removeClass('active');
+                $('link').attr('href', 'css/animation-tabs.css');
+                $(this).addClass('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
