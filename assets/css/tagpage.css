@@ -1,0 +1,67 @@
+.tabs-menu div {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px #000000 solid;
+    padding: 5px 20px;
+    margin: 20px;
+    color: black;
+}
+
+.tabs-menu div:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.css-switcher div {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px #000000 solid;
+    padding: 5px 20px;
+    margin: 20px;
+}
+
+.css-switcher div:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.css-switcher div.active {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+/* HERE COMES IMPORTANT STYLES */
+
+
+/* hiding and showing tabs */
+
+.tabs div {
+    height: 0;
+    overflow: hidden;
+    max-height: 0;
+    transition: all 1s linear;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.tabs div.current {
+    height: auto;
+    max-height: 200px;
+    transition: all 1s linear;
+    pointer-events: all;
+    opacity: 1;
+    color: black;
+}
+
+
+/* highlighting selected tab menu */
+
+.tabs-menu div.active {
+    background: #000000;
+    color: #ffffff;
+}
+
+.collect {
+    color: black;
+}
