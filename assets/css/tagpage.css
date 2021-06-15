@@ -65,3 +65,53 @@
 .collect {
     color: black;
 }
+
+#tab-demo {
+    width: 350px;
+    height: 200px;
+}
+
+#dbcontent>ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.tab-title {
+    list-style: none;
+}
+
+#dbcontent>ul>li {
+    display: inline-block;
+    vertical-align: top;
+    font-family: '微軟正黑體';
+    margin: 0 -1px -1px 0;
+    border: 1px solid #BCBCBC;
+    height: 25px;
+    line-height: 25px;
+    background: #cdcdcd;
+    padding: 0 15px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#dbcontent>ul>li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#dbcontent>ul>li.active {
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+
+#dbcontent>.tab-inner {
+    clear: both;
+    color: #000;
+    border: 1px #BCBCBC solid;
+}
+
+.tab-inner {
+    padding: 15px;
+    height: 90%;
+}
