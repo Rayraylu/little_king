@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>Left Sidebar - Landed by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+    <link rel="stylesheet" href="assets/css/schedule.css">
+    <link rel="stylesheet" href="assets/css/dashboard_test.css">
+    <link rel="stylesheet" href="assets/css/tagpage.css">
+</head>
+
+<body class="is-preload">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo">
+                <a href="index.html">
+                    紡織布料線上策展平台
+                </a>
+            </h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <li>
+                        <a href="#">數位展區</a>
+                        <ul>
+                            <li><a href="供應商個別數位包廂.html">供應商個別數位包廂</a></li>
+                            <li><a href="hop_on.html">Hop-On Trip</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="webinar.html">Webinar</a></li>
+                    <li><a href="textile_pitch.html">Textile Pitch</a></li>
+                    <li><a href="線上即時論壇.html">線上即時論壇</a></li>
+                    <button onclick="myFunction()" class="dropdownbtn" aria-label="點選個人資料相片，即可顯示您其他的帳戶">
+						<img id="img" class="memberimg" alt="顯示圖片" height="32" width="32" src="images/member.jpg">
+					</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a><img height="80" width="80" src="images/member.jpg">Member Name</a>
+                        <a href="#">Schedule 排程</a>
+                        <a href="#">MyChat 聊天室</a>
+                        <a href="#">MyOrder/Collection</a>
+                        <a href="#">MyProfile</a>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <a onclick="dashboard()" class="dashboard"></a>
+                <div id="dbcontent" class="dbcontent">
+                    <ul class="tab-title">
+                        <li><a href="#tab01">Direct Message</a></li>
+                        <li><a href="#tab02">預約排程</a></li>
+                        <li><a href="#tab03">我的收藏</a></li>
+                    </ul>
+                    <div id="tab01" class="tab-inner">
+
+                    </div>
+                    <div id="tab02" class="tab-inner">
+                        <div class="calendar">
+                            <div class="title">
+                                <h1 class="green" id="calendar-title" style="float: right;transform: translate(0,100%);right:10px">Month</h1>
+                                <h2 class="green small" id="calendar-year">Year</h2>
+                                <a href="" id="prev" style="width:50%">Prev Month</a>
+                                <a href="" id="next" style="width:50%">Next Month</a>
+                            </div>
+                            <div class="body">
+                                <div class="lightgrey body-list">
+                                    <ul>
+                                        <li>MON</li>
+                                        <li>TUE</li>
+                                        <li>WED</li>
+                                        <li>THU</li>
+                                        <li>FRI</li>
+                                        <li>SAT</li>
+                                        <li>SUN</li>
+                                    </ul>
+                                </div>
+                                <div class="darkgrey body-list">
+                                    <ul id="days">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab03" class="tab-inner">
+                        <section id="order" style="float: left;width:40%;text-align: center;border-left:20%">
+                            <h3>My Order</h3>
+                            <p style="color: black">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            </p>
+                        </section>
+                        <section id="collect" style="float: right;width:40%;text-align: center;">
+                            <h3>My Collection</h3>
+                            <p style="color: black">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                            </p>
+                        </section>
+                    </div>
+                </div>
+                <div class="row gtr-150">
+                    <div class="cloth" style="float: left; width: 20%">
+                        <img src="主題img/cloth9.jpg" style="width: 100%; height: 38%;">
+                        <div style="margin-top: 50%">
+                            <a href="#" class="button" style="margin: 3%">下載圖檔</a>
+                            <a href="#" class="button" style="margin: 3%">下載影音</a>
+                            <a href="#" class="button" style="margin: 3%">一鍵下單</a>
+                        </div>
+                    </div>
+                    <div class="video" style="float: left; width: 45%; margin-left: 5%;">
+                        <!-- Content -->
+                        <section id="content">
+                            <iframe width="420" height="315" src="https://www.youtube.com/embed/MwtviWUoq8Q">
+                            </iframe>
+                        </section>
+                    </div>
+                    <div class="description" style="float: left; width: 30%; background-color: rgba(128, 121, 121, 0.5); margin-right: 0%; margin-top: 0%; right: 3%;">
+                        <br>
+                        <h3>產品介紹</h3>
+                        <br>
+                        <p style="color:black; font-weight: bold;">產品名: Single Knit Stretch</p>
+                        <p style="color: black; font-weight: bold;">成份: 91% POLYESTER + 9% SPANDEX</p>
+                        <p style="color: black; font-weight: bold;">規格: WICKING FINISH</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; Untitled. All rights reserved.</li>
+                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/dropdownclick.js"></script>
+    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery-simple-tabs-v1.0-minified.js"></script>
+    <script src="assets/js/jquery-simple-tabs-v1.0.js"></script>
+    <script src="assets/js/dashboard_test.js"></script>
+    <script>
+        $(function() {
+            var $li = $('ul.tab-title li');
+            $($li.eq(0).addClass('active').find('a').attr('href')).siblings('.tab-inner').hide();
+
+            $li.click(function() {
+                $($(this).find('a').attr('href')).show().siblings('.tab-inner').hide();
+                $(this).addClass('active').siblings('.active').removeClass('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
