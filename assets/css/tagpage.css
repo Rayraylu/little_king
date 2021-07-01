@@ -66,10 +66,8 @@
     color: black;
 }
 
-#tab-demo {
-    width: 350px;
-    height: 200px;
-}
+
+/*new*/
 
 #dbcontent>ul {
     display: block;
