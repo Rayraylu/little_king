@@ -113,9 +113,9 @@
                     <div class="cloth" style="float: left; width: 20%">
                         <img src="主題img/cloth2.jpg" style="width: 100%; height: 38%;">
                         <div style="margin-top: 50%">
-                            <a href="#" class="button" style="margin: 3%">下載圖檔</a>
-                            <a href="#" class="button" style="margin: 3%">下載影音</a>
-                            <a href="#" class="button" style="margin: 3%">一鍵下單</a>
+                            <a href="主題img/cloth2.jpg" download="主題img/cloth2.jpg" class="button" onclick="downloads()" style="margin: 3%">下載圖檔</a>
+                            <a href="#" class="button" onclick="downloads()" style="margin: 3%">下載影音</a>
+                            <a href="#" class="button" onclick="orders()" style="margin: 3%">一鍵下單</a>
                         </div>
                     </div>
                     <div class="video" style="float: left; width: 45%; margin-left: 5%;">
@@ -181,7 +181,16 @@
             });
         });
     </script>
-
+    <script>
+        function downloads() {
+            alert("恭喜獲得會員點數 1 點！")
+        }
+    </script>
+    <script>
+        function orders() {
+            alert("恭喜獲得會員點數 10 點！")
+        }
+    </script>
 </body>
 
 </html>
